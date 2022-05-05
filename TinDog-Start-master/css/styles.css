@@ -1,52 +1,59 @@
-#title{
+#title {
   background-color: #ff4c68;
   color: white;
   padding-bottom: 7%;
 }
-.title-h1{
+
+#title .heading {
+  /* Combining Selectors by nesting parent child relation*/
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.2;
   font-weight: bold;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 1% 10%;
 }
-body{
+
+body {
   font-family: "Montserrat";
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu Mono";
   font-size: 2.5rem;
   font-weight: bold;
-  
-
 }
-.nav-item{
+
+.nav-item {
   padding: 0px 18px;
 }
-.nav-link{
+
+.nav-link {
   font-size: 1.2rem;
   font-family: Montserrat;
 }
-#navi{
+
+#navi {
   padding-left: 0px;
   padding-top: 1px;
   padding-bottom: 30px;
 }
-.dwn-btn{
+
+.dwn-btn {
   margin-top: 30px;
 }
-.title-image{
+
+.title-image {
   transform: rotate(25deg);
   width: 20%;
   position: absolute;
-  left:60%;
+  left: 60%;
 }
 
-@media (max-width: 1000px){
-  .title-image{
+@media (max-width: 1000px) {
+  .title-image {
     position: static;
     transform: rotate(0);
     padding-top: 2%;
@@ -54,39 +61,42 @@ body{
 }
 
 /* Feature Section */
-.features{
+.features {
   margin-top: 0px;
   padding: 10% 10%;
   background-color: white;
   position: relative;
 }
-h3{
+
+h3 {
   font-family: "Montserrat-Black";
   font-weight: bolder;
   font-size: 1.3rem;
   text-align: center;
   margin: 3% auto;
 }
-.feature-p{
+
+.feature-p {
   font-family: "Montserrat";
   padding: 0% 10% 0% 10%;
   color: rgb(166, 166, 166);
   font-weight: bold;
   text-align: center;
-  
 }
-.feature-icons{
+
+.feature-icons {
   width: 20%;
   margin: 0% 40% 0% 40%;
 }
 
 /* Testimonials Section */
-#testimonials{
+#testimonials {
   padding: 3% 5% 3% 5%;
   text-align: center;
   background-color: #ff4c68;
 }
-.carousel-h2{
+
+.carousel-h2 {
   font-family: "Montserrat-Bold";
   font-weight: 3rem;
   line-height: 1.5;
@@ -95,46 +105,53 @@ h3{
   font-weight: bolder;
   padding: 0% 5%;
 }
-.testimonial-image{
+
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 0% 3%;
 }
 
 /* Press */
-#press{
+#press {
   background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3%;
   margin-top: 0%;
 }
-.press-logo{
+
+.press-logo {
   width: 15%;
   margin: 0% 3%;
 }
-#carouselExampleIndicators{
+
+#carouselExampleIndicators {
   padding-bottom: 10%;
 }
-.carousel-em{
+
+.carousel-em {
   color: white;
   font-weight: bold;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 5% 15% 5% 15%;
 }
 
 /* Pricing */
-.price-h2{
+.price-h2 {
   font-family: Ubuntu Bold;
   font-weight: 1000;
   font-size: 2rem;
   color: black;
 }
-.price-p{
+
+.price-p {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-.price-button{
+
+.price-button {
   width: 90%;
   color: white;
   font-weight: bold;
@@ -142,48 +159,82 @@ h3{
   margin-top: auto;
 }
 
-#pricing{
+#pricing {
   padding: 100px;
 }
-.decks{
+
+.decks {
   /* padding: 3% 2%; */
   border: inset;
   border-width: 5px;
   margin: 0% 3%;
 }
-.card-body{
+
+.card-body {
   text-align: center;
 }
 
 /* CTA  */
 
-#cta{
+#cta {
   background-color: #ff4c68;
   padding: 5% 20%;
 }
-.cta-h3{
-  font-family: "Montserrat-Bold" ;
+
+.cta-h3 {
+  font-family: "Montserrat-Bold";
   font-weight: 1000;
   font-size: xx-large;
   color: white;
   text-align: center;
   padding: 0% 10%;
 }
-.cta-button-div{
+
+.cta-button-div {
   text-align: center;
   padding: 2% 0%;
 }
-.cta-button{
+
+.cta-button {
   color: white;
   font-weight: bold;
   margin: 2% 4%;
 }
+
 /* Footer */
-#footer{
+#footer {
   text-align: center;
   padding: 5% 20%;
-
 }
-.footer-icons{
+
+.footer-icons {
   margin: 3% 2%;
 }
+
+/* .card.col-lg-3.col-md-4{
+  This means we are selecting a div whre classes card, col-lg-3 & col-md-4 must be present at the same level
+
+} */
+
+/* h1#title{
+  h1 with id: title same as above
+} */
+
+/* Selector Priority  
+
+ID > CLASSES > TAGS
+eg: #title > .div > h1
+
+inline CSS > internal CSS > external CSS
+
+*/
+
+/*
+
+h1{
+  color: red;
+  color: blue;
+  // red will be applied first after that blue will be update 
+}
+
+*/
