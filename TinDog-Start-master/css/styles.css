@@ -1,0 +1,189 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 7%;
+}
+.title-h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 1% 10%;
+}
+body{
+  font-family: "Montserrat";
+}
+
+.navbar-brand{
+  font-family: "Ubuntu Mono";
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+
+}
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+#navi{
+  padding-left: 0px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+.dwn-btn{
+  margin-top: 30px;
+}
+.title-image{
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  left:60%;
+}
+
+@media (max-width: 1000px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 2%;
+  }
+}
+
+/* Feature Section */
+.features{
+  margin-top: 0px;
+  padding: 10% 10%;
+  background-color: white;
+  position: relative;
+}
+h3{
+  font-family: "Montserrat-Black";
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 3% auto;
+}
+.feature-p{
+  font-family: "Montserrat";
+  padding: 0% 10% 0% 10%;
+  color: rgb(166, 166, 166);
+  font-weight: bold;
+  text-align: center;
+  
+}
+.feature-icons{
+  width: 20%;
+  margin: 0% 40% 0% 40%;
+}
+
+/* Testimonials Section */
+#testimonials{
+  padding: 3% 5% 3% 5%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.carousel-h2{
+  font-family: "Montserrat-Bold";
+  font-weight: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 0% 5%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 0% 3%;
+}
+
+/* Press */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  margin-top: 0%;
+}
+.press-logo{
+  width: 15%;
+  margin: 0% 3%;
+}
+#carouselExampleIndicators{
+  padding-bottom: 10%;
+}
+.carousel-em{
+  color: white;
+  font-weight: bold;
+}
+.carousel-item{
+  padding: 5% 15% 5% 15%;
+}
+
+/* Pricing */
+.price-h2{
+  font-family: Ubuntu Bold;
+  font-weight: 1000;
+  font-size: 2rem;
+  color: black;
+}
+.price-p{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.price-button{
+  width: 90%;
+  color: white;
+  font-weight: bold;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+#pricing{
+  padding: 100px;
+}
+.decks{
+  /* padding: 3% 2%; */
+  border: inset;
+  border-width: 5px;
+  margin: 0% 3%;
+}
+.card-body{
+  text-align: center;
+}
+
+/* CTA  */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 5% 20%;
+}
+.cta-h3{
+  font-family: "Montserrat-Bold" ;
+  font-weight: 1000;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  padding: 0% 10%;
+}
+.cta-button-div{
+  text-align: center;
+  padding: 2% 0%;
+}
+.cta-button{
+  color: white;
+  font-weight: bold;
+  margin: 2% 4%;
+}
+/* Footer */
+#footer{
+  text-align: center;
+  padding: 5% 20%;
+
+}
+.footer-icons{
+  margin: 3% 2%;
+}
