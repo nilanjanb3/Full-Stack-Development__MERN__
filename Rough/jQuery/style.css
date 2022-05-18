@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+.big-title {
+    font-size: 50px;
+    color: aqua;
+    font-family: cursive;
+}
+
+.margin {
+    margin: 50px;
+}

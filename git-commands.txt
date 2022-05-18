@@ -1,0 +1,29 @@
+git add . ~ add files to the staging area
+
+git commit -m "commit message" ~add files to the local repository
+
+git status ~ check unstaged files 
+
+git checkout <file name> ~ roll back to previous commit 
+
+git diff <file name> check differences of unstaged & last commit 
+
+git log ~ shows commit history & differences between remote and local
+
+git remote add origin <url of git remote repo> ~ add origin for remote repo
+
+git push -u origin main | master ~ push files to remote repo with commits 
+
+git rm --cached -r ~undo changed added to staging area
+
+git clone <remote repo url> ~ clone from remote repo to local
+
+git branch <branch name> ~ to create new branch
+
+git branch ~ list the git branches
+
+git checkout <brach name> to shift from current branch to desired branch
+
+git merge <branch name> ~ merge the desired branch to the current branch
+
+git fetch <remote-url> <branch-name> if fetchs commits & changes from remote to local
